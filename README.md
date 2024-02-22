@@ -1,8 +1,13 @@
-# React + Vite
+### Ecom
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Our E-Commerce website is a user-friendly online shopping platform created with the latest web technologies. Powered by React.js, the site offers a seamless and interactive shopping experience. The use of HTML and CSS ensures a visually appealing layout, while JavaScript adds dynamic functionalities.
 
-Currently, two official plugins are available:
+#### Bootstrap enhances the site's responsiveness, making it accessible across various devices. Behind the scenes, Git and GitHub support version control, ensuring smooth collaboration and efficient code management.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Technologies Used :
+- React.js
+- Javascript
+- Html
+- css
+  
+  
