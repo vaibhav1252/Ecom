@@ -1,0 +1,89 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f1f3f6;
+}
+
+.SignUpPage {
+    height: 550px;
+    width: 800px;
+    display: flex;
+    background-color: #000000;
+}
+
+.SignUpPage-Left {
+    position: relative;
+    width: 40%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-color: #2874f0;
+}
+
+.SignUpPage-Left h2 {
+    font-weight: 200;
+    color: #fff;
+}
+
+.SignUpPage-Left p {
+    margin-top: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    font-weight: 100;
+    color: #dbdbdb;
+}
+
+.SignUpPage-Right {
+    position: relative;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 26px;
+}
+
+.SignUpPage-input input {
+    outline: none;
+    border: none;
+    height: 36px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.Terms-and-Condition {
+    font-size: 12px;
+    margin-top: 25px;
+    color: #878787;
+}
+
+.Terms-and-Condition span {
+    color: #2874f0;
+}
+
+.SignUpPage-Right button {
+    font-weight: 80;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    margin-top: 25px;
+    background-color: #fb641b;
+}
+
+.SignUpPage-Right button:hover {
+    background-color: #ff5500;
+}
+
+
+.New-to-Flipkart {
+    position: absolute;
+    text-align: center;
+    bottom: 40px;
+    font-size: 14px;
+    width: 90%;
+    /* margin-bottom: ; */
+    color: #2874f0;
+    /* background-color: #fb641b; */
+}

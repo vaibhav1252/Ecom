@@ -1,0 +1,65 @@
+/* header section */
+.fk-header {
+    background-color: #fff;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    height: 50px;
+}
+
+.logoimg {
+    height: 30px;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* header logo */
+.fk-header-logo {
+    flex: 0.7;
+}
+
+/* header searchbar */
+.fk-header-searchbar {
+    flex: 2.5;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: #f0f5ff;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.fk-header-searchbar>input {
+    height: 35px;
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: #f0f5ff;
+}
+
+.fk-header-searchbar>input::placeholder {
+    padding: 0 10px;
+    font-size: 16px;
+    color: #d7d8da;
+}
+
+
+/* header menu */
+.fk-header-menu {
+    flex: 1.8;
+    display: flex;
+    gap: 35px;
+    cursor: pointer;
+}
+
+.headericon {
+    margin: 0px 5px;
+}

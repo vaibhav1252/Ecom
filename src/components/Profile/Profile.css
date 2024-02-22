@@ -1,0 +1,247 @@
+.profile-container {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.profile-inner-container {
+    display: flex;
+    height: auto;
+    width: 92%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.profile-left {
+    height: 800px;
+    width: 26%;
+    box-sizing: border-box;
+}
+
+.profile-pic,
+.frequently-visited {
+    width: 100%;
+    height: 10%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.profile-pic img {
+    margin-left: 6px;
+    margin-top: 4px;
+}
+
+.profile-heading,
+h6,
+h5 {
+    font-weight: 100;
+    margin-left: 20px;
+}
+
+.profile-middle {
+    width: 100%;
+    height: 79%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    background-color: #fff;
+    color: #878787;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+}
+
+.my-orders,
+.Logout {
+    margin-right: 10px;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: large;
+    color: #878787;
+    border-bottom: solid 1px#b1b1b1;
+}
+
+.my-orders:hover {
+    color: blue;
+}
+
+.Logout:hover {
+    color: blue;
+}
+
+.orderImg,
+.logoutImg,
+.accountImg {
+    margin-right: 10px;
+    margin-left: 10px;
+    color: blue;
+}
+
+.account-setting {
+    height: auto;
+    padding: 1em 0;
+    border-bottom: solid 1px#b1b1b1;
+}
+
+.account-setting-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.account-setting-links a {
+    padding-left: 36px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+}
+
+.account-setting-links a:hover {
+    background-color: #f5faff;
+    color: blue;
+}
+
+.account-setting-heading {
+    display: flex;
+    font-size: 16px;
+}
+
+.frequently-visited-heading {
+    font-size: small;
+}
+
+.frequently-visited-heading h4 {
+    font-weight: 100;
+}
+
+.frequently-visited-heading {
+    margin-left: 36px;
+}
+
+.profile-right {
+    height: 1000px;
+    width: 72%;
+    margin-left: 2%;
+    background-color: #fff;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.profile-upper {
+    height: 82%;
+    width: 96%;
+    margin: 2% 2% 0 2%;
+    padding: 10px;
+    box-sizing: border-box;
+    /* background-color: rgb(111, 240, 94); */
+}
+
+.personal-info input {
+    height: 40px;
+    width: 260px;
+    border-radius: 6px;
+    outline: none;
+    border: solid gray 1px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: #fafafa;
+    font-size: large;
+    padding: 2px 8px;
+}
+
+.email,
+.personal-info,
+.gender,
+.mobile {
+    /* background-color: #878787; */
+    padding: 10px;
+}
+
+.email input {
+    height: 40px;
+    width: 260px;
+    border-radius: 6px;
+    outline: none;
+    border: solid gray 1px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: #fafafa;
+    font-size: large;
+    padding: 2px 8px;
+}
+
+.mobile input {
+    height: 40px;
+    width: 260px;
+    border-radius: 6px;
+    outline: none;
+    border: solid gray 1px;
+    margin: 10px;
+    margin-left: 0;
+    background-color: #fafafa;
+    font-size: large;
+    padding: 2px 8px;
+}
+
+.edits {
+    font-size: small;
+    color: blue;
+    margin-left: 40px;
+    cursor: pointer;
+}
+
+.radioButton {
+    display: flex;
+}
+
+.radioButton label {
+    margin: 10px;
+    gap: 20px;
+}
+
+.radioButton input {
+    margin: 0;
+}
+
+.radio {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: small;
+}
+
+.faq{
+    line-height: 26px;
+}
+
+.faq h4 {
+    color: #111112;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.faq p {
+    color: #5f5e5e;
+    font-size: 14px;
+}
+
+.Deactivate-Account {
+    color: blue;
+    font-size: 14px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.Profile_footer img {
+    height: 16%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* background-color: aqua; */
+}

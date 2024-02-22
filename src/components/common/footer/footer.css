@@ -1,0 +1,54 @@
+.fk-footer {
+    background-color: #201f1f;
+    padding: 15px 0px 10px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: center;
+    height: 275px;
+}
+
+.footer-upper {
+    display: flex;
+    gap: 40px;
+}
+
+.footerlist {
+    color: #fff;
+    padding: 20px 20px 0px 20px;
+    font-size: smaller;
+}
+
+.footer-bottom {
+    display: flex;
+    color: #fff;
+    gap: 150px;
+    width: 100%;
+    padding: 26px 30px 0px 50px;
+    font-size: smaller;
+    margin-bottom: 10px;
+    border-top: 1px solid rgb(233, 193, 91);
+}
+
+.fk-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fk-footer a:hover {
+    text-decoration: underline;
+}
+
+.headericon1 {
+    color: goldenrod;
+    margin: 0px 10px;
+}
+
+.mailus {
+    border-left: 1px solid rgb(233, 193, 91);
+}
+
+h4 {
+    margin: 10px 0px;
+    color: grey
+}

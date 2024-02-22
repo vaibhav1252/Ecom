@@ -1,0 +1,27 @@
+.signinlist {
+    width: 150px;
+    background-color: #fff;
+    display: none;
+    border-radius:8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position:absolute;
+    cursor:pointer;
+}
+
+.signinmenubox:hover .signinlist{
+    display:block;
+}
+
+.signinmenubox{
+    
+    background-color: #fff;
+}
+.signinlistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.signinlistitems li{
+    list-style: none;
+    padding:10px;
+    font-size: 14px;
+}

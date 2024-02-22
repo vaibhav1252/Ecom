@@ -1,0 +1,94 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f1f3f6;
+}
+
+.LoginPage {
+    height: 550px;
+    width: 800px;
+    display: flex;
+    background-color: #000000;
+}
+
+.LoginPage-Left {
+    position: relative;
+    width: 40%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    background-color: #2874f0;
+}
+
+.LoginPage-Left h2 {
+    font-weight: 200;
+    color: #fff;
+}
+
+.LoginPage-Left p {
+    margin-top: 26px;
+    line-height: 26px;
+    font-size: 18px;
+    color: #dbdbdb;
+}
+
+.LoginPage-Right {
+    position: relative;
+    width: 60%;
+    box-sizing: border-box;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 26px;
+}
+
+.LoginPage-input input {
+    outline: none;
+    border: none;
+    border-bottom: 1px solid gray;
+    width: 100%;
+    height: 36px;
+}
+
+.Terms-and-Condition {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 25px;
+    color: #878787;
+}
+
+.Terms-and-Condition span {
+    color: #2874f0;
+}
+
+.LoginPage-Right-btn1 {
+    font-weight: 80;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    margin-top: 14px;
+    background-color: #fb641b;
+}
+
+.LoginPage-Right-btn1:hover {
+    background-color: #ff5500;
+}
+
+.LoginPage-Right-btn2 {
+    font-weight: 80;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 45px;
+    width: 100%;
+    outline: none;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    color: #2874f0;
+    background-color: #fff;
+}
+
+.LoginPage-Right-btn2:hover {
+    background-color: #fff;
+}

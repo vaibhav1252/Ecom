@@ -1,0 +1,11 @@
+.sidebar {
+    background-color: #2e2b2b;
+    height: 95vh;
+    width: 150px;
+    color: #fff;
+    padding: 16px;
+}
+
+.sidebar>p {
+    margin: 20px;
+}

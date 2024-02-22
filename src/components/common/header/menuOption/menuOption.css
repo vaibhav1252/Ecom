@@ -1,0 +1,27 @@
+.menuoptionnlist {
+    width: 200px;
+    background-color: #fff;
+    display: none;
+    border-radius:8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position:absolute;
+    transform: translateX(-150px);
+}
+
+.menuoptionnmenubox:hover .menuoptionnlist{
+    display:block;
+}
+
+.menuoptionnmenubox{
+    padding: 2px;
+    background-color: #fff;
+}
+.menuoptionnlistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.menuoptionnlistitems li{
+    list-style: none;
+    padding:10px;
+    font-size: 14px;
+}

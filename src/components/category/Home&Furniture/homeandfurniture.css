@@ -1,0 +1,50 @@
+.homeandfurniturelist {
+    width: 200px;
+    background-color: #fff;
+    display: none;
+    border-radius:8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position:absolute;
+    cursor:pointer;
+    text-align: left;
+}
+
+.homeandfurnituremenubox:hover .hover {
+    color: blue;
+}
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: default;
+}
+
+.homeandfurniture{
+    cursor: default;
+}
+
+.homeandfurnituremenubox:hover .homeandfurniturelist{
+    display:block;
+}
+
+
+.homeandfurniturelistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.homeandfurnituremenubox .icondropdown {
+    padding-top: 5px;
+}
+
+.homeandfurniturelistitems li{
+    list-style: none;
+    padding:10px;
+    font-size: 14px;
+}
+
+.homeandfurnituremenubox:hover .icondropdown {
+    color: blue;
+    transform: rotateX(-180deg);
+}

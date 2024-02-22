@@ -1,0 +1,47 @@
+.Electronicslist {
+    width: 200px;
+    background-color: #fff;
+    display:none;
+    border-radius: 8px;
+    position: absolute;
+    text-align: left;
+}
+
+.Electronicsmenubox:hover .hover {
+    color: blue;
+}
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    /* cursor:pointer; */
+}
+
+.Electronics {
+    cursor: default
+}
+
+.Electronicsmenubox:hover .Electronicslist {
+    display: block;
+}
+
+.Electroniccslistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.Electronicsmenubox .icondropdown {
+    padding-top: 5px;
+}
+
+.Electroniccslistitems li {
+    list-style: none;
+    padding:10px;
+    font-size: 14px;
+}
+
+.Electronicsmenubox:hover .icondropdown{
+    color:blue;
+    transform:rotate(-180deg)
+}

@@ -1,0 +1,88 @@
+.form-container {
+    background-color: #f1f2f4;
+    padding: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+    margin: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.form-container input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    border: 1px solid;
+    width: 100%;
+    text-align: center;
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 12px;
+}
+
+.menutable {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    width: 70%;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 16px;
+}
+
+.Edit-button,
+.Remove-button {
+    margin: 5px;
+}
+
+.Remove-button {
+    background-color: rgb(253, 95, 95);
+}
+
+.Remove-button:hover {
+    background-color: rgb(231, 8, 53);
+}
+
+.span {
+    background-color: rgb(8, 163, 2);
+    color: white;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+
+h3 {
+    margin-bottom: 8px;
+}

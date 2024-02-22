@@ -1,0 +1,50 @@
+.fashionlist {
+    width: 200px;
+    background-color: #fff;
+    display: none;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    transform: translateX(-75px);
+    text-align: left;
+    cursor: pointer;
+}
+
+.fashionmenubox:hover .hover {
+    color: blue;
+}
+
+.Fashion{
+    cursor: default;
+}
+
+.hover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    cursor: default;
+}
+
+.fashionmenubox:hover .icondropdown {
+    color: blue;
+    transform: rotateX(-180deg);
+}
+
+.fashionmenubox .icondropdown {
+    padding-top: 5px;
+}
+
+.fashionmenubox:hover .fashionlist {
+    display: block;
+}
+
+.fashionlistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.fashionlistitems li {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+}

@@ -1,0 +1,42 @@
+.Twowheelerslist {
+    width: 160px;
+    background-color: #fff;
+    display: none;
+    border-radius: 8px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: absolute;
+    cursor: pointer;
+    text-align: left;
+}
+
+.Twowheelersmenubox:hover .hover {
+    color: blue;
+}
+
+.Twowheelers {
+    cursor: default;
+}
+
+.Twowheelersmenubox:hover .Twowheelerslist {
+    display: block;
+}
+
+
+.Twowheelerslistitems li:hover {
+    background-color: #f0f5ff;
+}
+
+.Twowheelersmenubox .icondropdown {
+    padding-top: 5px;
+}
+
+.Twowheelerslistitems li {
+    list-style: none;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.Twowheelersmenubox:hover .icondropdown {
+    color: blue;
+    transform: rotateX(-180deg);
+}
